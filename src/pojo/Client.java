@@ -9,5 +9,8 @@ public class Client {
 //        }
        enumclass enumvalue =  enumclass.valueOf("friday");
         System.out.println(enumvalue.name());
+
+        enumcustom samplevar = enumcustom.getEnumFromvalue(103);
+        System.out.print(samplevar.getVal());
     }
 }
