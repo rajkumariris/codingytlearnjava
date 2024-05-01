@@ -12,5 +12,7 @@ public class Client {
 
         enumcustom samplevar = enumcustom.getEnumFromvalue(103);
         System.out.print(samplevar.getVal());
+
+
     }
 }
